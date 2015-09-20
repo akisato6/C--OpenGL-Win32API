@@ -1,0 +1,26 @@
+Sputtering_rate:	1.0
+Deposition_rate:	2.3
+Beam_speed[nm/s]:	100.0
+Beam_angle[deg]:	60.0
+Ar_ion_number[qty/sec]:	500
+CVD_number[qty/sec]:	500
+CVD_mean_radius:	2.0
+CVD_radius_variance:	0.01
+Sp_mean_radius:		2.0
+Sp_radius_variance:	0.01
+
+CVD_Step_number:	2000
+Sp_Step_number:		700
+Time_variation[sec]:	0.001
+Model_size[nm]_(x,y,z):	500.0	500.0	100.0
+Mesh_division_(x,y,z):	32	32	32
+Mesh_fill_parameter[%]:	10.0
+Mesh_calculation_gap:	10
+Result_output_gap:	100
+
+Max_height[nm]:		30.0 
+
+FFT parameters:
+Sample_number:		32
+Cutoff_wavelength_low:	1000.0
+Cutoff_wavelength_high:	1.0

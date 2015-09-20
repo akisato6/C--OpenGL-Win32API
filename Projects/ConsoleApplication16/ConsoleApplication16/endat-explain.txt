@@ -1,0 +1,29 @@
+zparameter:	300.0	0.40	
+
+cellnumber: 	3     //å¬é∫ÇÃêî
+cellspan:	200.00	 // Span of cell
+wallthickness:	9.00	// Thickness of the cell wall
+
+meshnumber:	20 20 10
+judgecondition:	0.30   // state value 	|0: Flow 1: Adsorbed(over border)
+					//|2:Contact to particle
+					// substate	|0:stickable 1:not stickable
+
+stepnum:	300	// Number of total steps
+gene_rate:	1000	// Generation rate of particles
+radius:		25.0	
+deltat:		0.01
+outputgap:	10
+meshcalcgap:	100
+
+meanradius:	0.8	( log10(x) )//  Mean radius of Mn particles.
+variance:	0.1		// Variance of radius of particles.
+frequency:	128		// Frequency factor of normal RN.
+	
+
+flow:		600.0	15.0	0.0	
+
+bordertemp:	800.00
+tempmesh:	1 1
+temperture:	
+850.00

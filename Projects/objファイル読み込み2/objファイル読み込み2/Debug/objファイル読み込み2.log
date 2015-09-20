@@ -1,0 +1,17 @@
+﻿2015/02/13 9:11:30 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "c:\Users\satoru\documents\visual studio 2013\Projects\objファイル読み込み2\objファイル読み込み2\objファイル読み込み2.vcxproj" (Build ターゲット)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\satoru\documents\visual studio 2013\Projects\objファイル読み込み2\Debug\objファイル読み込み2.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\satoru\documents\visual studio 2013\Projects\objファイル読み込み2\Debug\objファイル読み込み2.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\main.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>main.obj : error LNK2028: 未解決のトークン (0A000644) "void __cdecl LodePNG_decode(struct LodePNG_Decoder *,unsigned char * *,unsigned int *,unsigned char const *,unsigned int)" (?LodePNG_decode@@$$FYAXPAULodePNG_Decoder@@PAPAEPAIPBEI@Z) が関数 "public: void __thiscall TEXTURE::LOAD_PNG(char const *)" (?LOAD_PNG@TEXTURE@@$$FQAEXPBD@Z) で参照されました。
+     1>main.obj : error LNK2028: 未解決のトークン (0A00064D) "void __cdecl LodePNG_Decoder_init(struct LodePNG_Decoder *)" (?LodePNG_Decoder_init@@$$FYAXPAULodePNG_Decoder@@@Z) が関数 "public: void __thiscall TEXTURE::LOAD_PNG(char const *)" (?LOAD_PNG@TEXTURE@@$$FQAEXPBD@Z) で参照されました。
+     1>main.obj : error LNK2028: 未解決のトークン (0A000684) "unsigned int __cdecl LodePNG_loadFile(unsigned char * *,unsigned int *,char const *)" (?LodePNG_loadFile@@$$FYAIPAPAEPAIPBD@Z) が関数 "public: void __thiscall TEXTURE::LOAD_PNG(char const *)" (?LOAD_PNG@TEXTURE@@$$FQAEXPBD@Z) で参照されました。
+     1>main.obj : error LNK2019: 未解決の外部シンボル "void __cdecl LodePNG_Decoder_init(struct LodePNG_Decoder *)" (?LodePNG_Decoder_init@@$$FYAXPAULodePNG_Decoder@@@Z) が関数 "public: void __thiscall TEXTURE::LOAD_PNG(char const *)" (?LOAD_PNG@TEXTURE@@$$FQAEXPBD@Z) で参照されました。
+     1>main.obj : error LNK2019: 未解決の外部シンボル "unsigned int __cdecl LodePNG_loadFile(unsigned char * *,unsigned int *,char const *)" (?LodePNG_loadFile@@$$FYAIPAPAEPAIPBD@Z) が関数 "public: void __thiscall TEXTURE::LOAD_PNG(char const *)" (?LOAD_PNG@TEXTURE@@$$FQAEXPBD@Z) で参照されました。
+     1>main.obj : error LNK2019: 未解決の外部シンボル "void __cdecl LodePNG_decode(struct LodePNG_Decoder *,unsigned char * *,unsigned int *,unsigned char const *,unsigned int)" (?LodePNG_decode@@$$FYAXPAULodePNG_Decoder@@PAPAEPAIPBEI@Z) が関数 "public: void __thiscall TEXTURE::LOAD_PNG(char const *)" (?LOAD_PNG@TEXTURE@@$$FQAEXPBD@Z) で参照されました。
+     1>c:\users\satoru\documents\visual studio 2013\Projects\objファイル読み込み2\Debug\objファイル読み込み2.exe : fatal error LNK1120: 6 件の未解決の外部参照
+     1>プロジェクト "c:\Users\satoru\documents\visual studio 2013\Projects\objファイル読み込み2\objファイル読み込み2\objファイル読み込み2.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:00.43

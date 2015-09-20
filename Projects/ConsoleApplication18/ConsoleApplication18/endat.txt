@@ -1,0 +1,27 @@
+zparameter:	300.0	0.40	
+
+cellnumber: 	4
+cellspan:	200.00	
+wallthickness:	9.00	
+
+meshnumber:	20 20 10
+judgecondition:	0.30
+
+stepnum:	300	
+gene_rate:	1000	
+radius:		25.0	
+deltat:		0.01
+outputgap:	10
+meshcalcgap:	100
+
+meanradius:	0.8	( log10(x) )
+variance:	0.1
+frequency:	128
+	
+
+flow:		600.0	15.0	0.0	
+
+bordertemp:	800.00
+tempmesh:	1 1
+temperture:	
+850.00
